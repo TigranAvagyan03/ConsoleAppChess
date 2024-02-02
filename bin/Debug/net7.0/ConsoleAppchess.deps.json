@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "ConsoleAppchess/1.0.0": {
+      "ConsoleAppChess/1.0.0": {
         "runtime": {
-          "ConsoleAppchess.dll": {}
+          "ConsoleAppChess.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ConsoleAppchess/1.0.0": {
+    "ConsoleAppChess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\suren\\source\\repos\\ConsoleAppchess\\ConsoleAppchess\\ConsoleAppchess.csproj": {}
+    "C:\\Users\\suren\\source\\repos\\TigranAvagyan03\\ConsoleAppChess\\ConsoleAppChess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\suren\\source\\repos\\ConsoleAppchess\\ConsoleAppchess\\ConsoleAppchess.csproj": {
+    "C:\\Users\\suren\\source\\repos\\TigranAvagyan03\\ConsoleAppChess\\ConsoleAppChess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\suren\\source\\repos\\ConsoleAppchess\\ConsoleAppchess\\ConsoleAppchess.csproj",
-        "projectName": "ConsoleAppchess",
-        "projectPath": "C:\\Users\\suren\\source\\repos\\ConsoleAppchess\\ConsoleAppchess\\ConsoleAppchess.csproj",
+        "projectUniqueName": "C:\\Users\\suren\\source\\repos\\TigranAvagyan03\\ConsoleAppChess\\ConsoleAppChess.csproj",
+        "projectName": "ConsoleAppChess",
+        "projectPath": "C:\\Users\\suren\\source\\repos\\TigranAvagyan03\\ConsoleAppChess\\ConsoleAppChess.csproj",
         "packagesPath": "C:\\Users\\suren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\suren\\source\\repos\\ConsoleAppchess\\ConsoleAppchess\\obj\\",
+        "outputPath": "C:\\Users\\suren\\source\\repos\\TigranAvagyan03\\ConsoleAppChess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suren\\AppData\\Roaming\\NuGet\\NuGet.Config",

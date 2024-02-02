@@ -12,3 +12,17 @@ C:\Users\suren\source\repos\ConsoleAppchess\ConsoleAppchess\obj\Debug\net7.0\ref
 C:\Users\suren\source\repos\ConsoleAppchess\ConsoleAppchess\obj\Debug\net7.0\ConsoleAppchess.pdb
 C:\Users\suren\source\repos\ConsoleAppchess\ConsoleAppchess\obj\Debug\net7.0\ConsoleAppchess.genruntimeconfig.cache
 C:\Users\suren\source\repos\ConsoleAppchess\ConsoleAppchess\obj\Debug\net7.0\ref\ConsoleAppchess.dll
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\obj\Debug\net7.0\ConsoleAppchess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\obj\Debug\net7.0\ConsoleAppchess.AssemblyInfoInputs.cache
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\obj\Debug\net7.0\ConsoleAppchess.AssemblyInfo.cs
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\obj\Debug\net7.0\ConsoleAppchess.csproj.CoreCompileInputs.cache
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\obj\Debug\net7.0\ConsoleAppchess.dll
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\obj\Debug\net7.0\refint\ConsoleAppchess.dll
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\obj\Debug\net7.0\ConsoleAppchess.pdb
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\bin\Debug\net7.0\ConsoleAppchess.exe
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\bin\Debug\net7.0\ConsoleAppchess.deps.json
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\bin\Debug\net7.0\ConsoleAppchess.runtimeconfig.json
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\bin\Debug\net7.0\ConsoleAppchess.dll
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\bin\Debug\net7.0\ConsoleAppchess.pdb
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\obj\Debug\net7.0\ConsoleAppchess.genruntimeconfig.cache
+C:\Users\suren\Source\Repos\TigranAvagyan03\ConsoleAppChess\obj\Debug\net7.0\ref\ConsoleAppchess.dll

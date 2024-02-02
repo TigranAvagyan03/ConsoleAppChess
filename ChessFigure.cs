@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleAppchess
+namespace ConsoleAppChess
 {
     public enum PieceColor
     {
@@ -70,38 +70,11 @@ namespace ConsoleAppchess
 
             return initialRow == destRow || initialCol == destCol;
         }
-        public override bool CanMove(string initialCoordinate, string destCoordinate, ChessFigure[,] board)
+        public override bool CanMove(string initialCoordinate, string destCoordinate, ChessFigure[,] board) 
         {
-            int initialRow = 8 - int.Parse(initialCoordinate[1].ToString());
-            int initialCol = char.ToUpper(initialCoordinate[0]) - 'A';
-            int destRow = 8 - int.Parse(initialCoordinate[1].ToString());
-            int destCol = char.ToUpper(initialCoordinate[0]) - 'A';
-            if(initialRow==destRow || initialCol == destCol)
-            {
-                int rowDirection = Math.Sign(destRow - initialRow);
-                int colDirection = Math.Sign(destCol - initialCol);
-
-                int currentRow = initialRow + rowDirection;
-                int currentCol = initialCol + colDirection;
-                while(currentRow!=destRow || currentCol!=destCol) 
-                {
-                    if (board[currentCol,currentRow]!=null) 
-                    {
-                        return false;
-
-                    }
-
-
-                    currentRow += rowDirection;
-                    currentCol += colDirection;
-
-                }
-            
-               return true;
-            }
-               return false;
+            throw new NotImplementedException();
         }
-      
+
     }
 
     public class Bishop : ChessFigure
@@ -155,29 +128,29 @@ namespace ConsoleAppchess
 
         public override bool CanMove(string initialCoordinate, string destCoordinate, ChessFigure[,] board)
         {
-            int initialRow = 8 - int.Parse(initialCoordinate[1].ToString());//4
-            int initialCol = char.ToUpper(initialCoordinate[0]) - 'A';//0
-            int destRow = 8 - int.Parse(destCoordinate[1].ToString());//3
-            int destCol = char.ToUpper(destCoordinate[0]) - 'A';//1
+            int initialRow = 8 - int.Parse(initialCoordinate[1].ToString());
+            int initialCol = char.ToUpper(initialCoordinate[0]) - 'A';
+            int destRow = 8 - int.Parse(destCoordinate[1].ToString());
+            int destCol = char.ToUpper(destCoordinate[0]) - 'A';
 
             int rowDiff = Math.Abs(destRow - initialRow);
             int colDiff = Math.Abs(destCol - initialCol);
 
-            // Check if the Queen is moving along a row, column, or diagonal
+            
             if (initialRow == destRow || initialCol == destCol || rowDiff == colDiff)
             {
-                // Check if there are any figures in the path
-                int rowDirection = Math.Sign(destRow - initialRow);//-1
-                int colDirection = Math.Sign(destCol - initialCol);//1
+                
+                int rowDirection = Math.Sign(destRow - initialRow);
+                int colDirection = Math.Sign(destCol - initialCol);
 
-                int currentRow = initialRow + rowDirection;//3
-                int currentCol = initialCol + colDirection;//1
+                int currentRow = initialRow + rowDirection;
+                int currentCol = initialCol + colDirection;
 
                 while (currentRow != destRow || currentCol != destCol)
                 {
                     if (board[currentRow, currentCol] != null)
                     {
-                        // There is a figure in the path
+                        
                         return false;
                     }
 
@@ -185,11 +158,11 @@ namespace ConsoleAppchess
                     currentCol += colDirection;
                 }
 
-                // No figures in the path
+                
                 return true;
             }
 
-            // Queen is not moving along a valid path
+            
             return false;
         }
 
@@ -221,13 +194,6 @@ namespace ConsoleAppchess
             throw new NotImplementedException();
         }
     }
-
-
-
-
-
-
-
 
 
 }
